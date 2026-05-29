@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AmbiGPS - Ecosistema de Reciclaje Inteligente</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-content">
+            <div class="logo">
+                <i data-lucide="leaf" class="icon-green"></i>
+                <span>AmbiGPS</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#como-funciona">¿Cómo funciona?</a></li>
+                <li><a href="#impacto">Impacto en Mocoa</a></li>
+            </ul>
+            <button class="btn btn-outline">Iniciar Sesión</button>
+        </div>
+    </nav>
+
+    <header id="inicio" class="hero">
+        <div class="container hero-content">
+            <h1>El reciclaje inteligente llega al <span class="highlight">Putumayo</span></h1>
+            <p>Conecta con recicladores cercanos usando tecnología GPS. Valida tus entregas con códigos QR y empieza a generar un impacto ambiental positivo desde tu celular.</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary">Soy Ciudadano</button>
+                <button class="btn btn-secondary">Soy Reciclador</button>
+            </div>
+        </div>
+    </header>
+
+    <section id="como-funciona" class="features">
+        <div class="container">
+            <h2>Nuestra Tecnología</h2>
+            <div class="grid-features">
+                <div class="card">
+                    <div class="icon-box"><i data-lucide="package"></i></div>
+                    <h3>1. Solicitud de Recolección</h3>
+                    <p>Registra el peso y tipo de material (plástico, vidrio, metal). El sistema creará una alerta inmediata.</p>
+                </div>
+                <div class="card">
+                    <div class="icon-box"><i data-lucide="map-pin"></i></div>
+                    <h3>2. Geolocalización (GPS)</h3>
+                    <p>Notificamos a los recicladores activos en tu sector para garantizar una recolección rápida y eficiente.</p>
+                </div>
+                <div class="card">
+                    <div class="icon-box"><i data-lucide="qr-code"></i></div>
+                    <h3>3. Validación QR</h3>
+                    <p>Garantizamos la seguridad y trazabilidad. El reciclador escanea tu código para confirmar la entrega.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="impacto" class="stats">
+        <div class="container stats-content">
+            <div class="stat-item">
+                <span class="counter" data-target="1500">0</span>
+                <p>KG Reciclados</p>
+            </div>
+            <div class="stat-item">
+                <span class="counter" data-target="120">0</span>
+                <p>Usuarios Activos</p>
+            </div>
+            <div class="stat-item">
+                <span class="counter" data-target="45">0</span>
+                <p>Recicladores Conectados</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 AmbiGPS. Proyecto de Software I - Semestre IV.</p>
+            <p>Desarrollado para transformar Mocoa, Putumayo.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons(); // Inicializa los iconos
+    </script>
+</body>
+</html>
